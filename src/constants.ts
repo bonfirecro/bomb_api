@@ -43,7 +43,7 @@ const BSC_RPC = process.env.BSC_RPC || BSC_RPC_ENDPOINTS[0];
 // const ARBITRUM_RPC = process.env.ARBITRUM_RPC || 'https://arb1.arbitrum.io/rpc';
 // const CELO_RPC = process.env.CELO_RPC || 'https://forno.celo.org';
 // const MOONRIVER_RPC = process.env.MOONRIVER_RPC || 'https://rpc.moonriver.moonbeam.network';
-// const CRONOS_RPC = process.env.CRONOS_RPC || 'https://evm-cronos.crypto.org';
+const CRONOS_RPC = process.env.CRONOS_RPC || 'https://evm-cronos.crypto.org';
 // const AURORA_RPC =
 //   process.env.AURORA_RPC ||
 //   'https://mainnet.aurora.dev/Fon6fPMs5rCdJc4mxX4kiSK1vsKdzc3D8k6UF8aruek';
@@ -57,7 +57,7 @@ const BSC_CHAIN_ID = ChainId.bsc;
 // const ARBITRUM_CHAIN_ID = ChainId.arbitrum;
 // const CELO_CHAIN_ID = ChainId.celo;
 // const MOONRIVER_CHAIN_ID = ChainId.moonriver;
-// const CRONOS_CHAIN_ID = ChainId.cronos;
+const CRONOS_CHAIN_ID = ChainId.cronos;
 //const AURORA_CHAIN_ID = ChainId.aurora;
 
 const DFYN_LPF = 0.003;
@@ -82,7 +82,7 @@ const MULTICHAIN_RPC: Record<ChainId, string> = {
   // [ChainId.arbitrum]: ARBITRUM_RPC,
   // [ChainId.celo]: CELO_RPC,
   // [ChainId.moonriver]: MOONRIVER_RPC,
-  // [ChainId.cronos]: CRONOS_RPC,
+  [ChainId.cronos]: CRONOS_RPC,
   // [ChainId.aurora]: AURORA_RPC,
 };
 
@@ -104,8 +104,8 @@ const BSC_VAULTS_ENDPOINT =
 //   'https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/features/configure/vault/celo_pools.js';
 // const MOONRIVER_VAULTS_ENDPOINT =
 //   'https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/features/configure/vault/moonriver_pools.js';
-// const CRONOS_VAULTS_ENDPOINT =
-//   'https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/features/configure/vault/cronos_pools.js';
+const CRONOS_VAULTS_ENDPOINT =
+  'https://github.com/bonfirecro/bombfork/blob/main/src/features/configure/stake/cronos_stake.js';
 // //const AURORA_VAULTS_ENDPOINT =
 //  'https://raw.githubusercontent.com/beefyfinance/beefy-app/prod/src/features/configure/vault/aurora_pools.js';
 
@@ -119,7 +119,7 @@ const MULTICHAIN_ENDPOINTS = {
   // arbitrum: ARBITRUM_VAULTS_ENDPOINT,
   // celo: CELO_VAULTS_ENDPOINT,
   // moonriver: MOONRIVER_VAULTS_ENDPOINT,
-  // cronos: CRONOS_VAULTS_ENDPOINT,
+  cronos: CRONOS_VAULTS_ENDPOINT,
   // aurora: AURORA_VAULTS_ENDPOINT,
 };
 
@@ -158,9 +158,9 @@ export {
   // MOONRIVER_RPC,
   // MOONRIVER_CHAIN_ID,
   // MOONRIVER_VAULTS_ENDPOINT,
-  // CRONOS_RPC,
-  // CRONOS_CHAIN_ID,
-  // CRONOS_VAULTS_ENDPOINT,
+  CRONOS_RPC,
+  CRONOS_CHAIN_ID,
+  CRONOS_VAULTS_ENDPOINT,
   // AURORA_RPC,
   // AURORA_CHAIN_ID,
   // AURORA_VAULTS_ENDPOINT,

@@ -5,12 +5,14 @@ import { tokens } from './tokens/tokens';
 import { convertSymbolTokenMapToAddressTokenMap } from '../../util/convertSymbolTokenMapToAddressTokenMap';
 import Chain from '../../types/chain';
 import { ConstInterface } from '../../types/const';
+import { bfirefarm } from './platforms/bfirefarm';
 
 const _cronos = {
   platforms: {
     beefyfinance,
     vvs,
     crona,
+    bfirefarm,
   },
   tokens,
   tokenAddressMap: convertSymbolTokenMapToAddressTokenMap(tokens),

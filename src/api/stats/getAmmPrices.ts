@@ -16,6 +16,8 @@ import getNonAmmPrices from './getNonAmmPrices';
 // import boltBtdPools from '../../data/boltBtdLpPools.json';
 // import boltBtsPools from '../../data/boltBtsLpPools.json';
 import bombLpPools from '../../data/bombLpPools.json';
+import bfireLpPools from '../../data/bfireLpPools.json';
+
 import cakeLpPools from '../../data/cakeLpPools.json';
 import cakeLpV1Pools from '../../data/cakeLpV1Pools.json';
 // import mdexPools from '../../data/heco/mdexLpPools.json';
@@ -176,7 +178,7 @@ import cakeLpV1Pools from '../../data/cakeLpV1Pools.json';
 // import sushiMr from '../../data/moonriver/sushiLp.json';
 // import sushiMrPools from '../../data/moonriver/sushiLpPools.json';
 // import blizzPools from '../../data/avax/blizzLpPools.json';
-// import vvsPools from '../../data/cronos/vvsLpPools.json';
+import vvsPools from '../../data/cronos/vvsLpPools.json';
 // import cronaPools from '../../data/cronos/cronaLpPools.json';
 // import solarbeamDualLpPools from '../../data/moonriver/solarbeamDualLpPools.json';
 // import trisolarisLpPools from '../../data/aurora/trisolarisLpPools.json';

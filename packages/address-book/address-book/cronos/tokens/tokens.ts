@@ -96,6 +96,30 @@ const _tokens = {
     logoURI:
       'https://app.cronaswap.org/images/tokens/0xadbd1231fb360047525BEdF962581F3eee7b49fe.svg',
   },
+  BFIRE: {
+    name: 'Bonfire Token',
+    symbol: 'BFIRE',
+    address: '0x601f79d65929a6ac2831ef90F662A2248A786756',
+    chainId: 25,
+    decimals: 18,
+    website: 'https://app.cronaswap.org/',
+    description:
+      'bfire is the first decentralized exchange platform on the Cronos Chain and the lowest platform transaction fees (0.25%).',
+    logoURI:
+      'https://app.cronaswap.org/images/tokens/0xadbd1231fb360047525BEdF962581F3eee7b49fe.svg',
+  },
+  BSHARE: {
+    name: 'Bonfire Token',
+    symbol: 'BSHARE',
+    address: '0xf300E240C41E0a35990ad6C3d813e1a324FB718e',
+    chainId: 25,
+    decimals: 18,
+    website: 'https://app.cronaswap.org/',
+    description:
+      'bsharefire is the first decentralized exchange platform on the Cronos Chain and the lowest platform transaction fees (0.25%).',
+    logoURI:
+      'https://app.cronaswap.org/images/tokens/0xadbd1231fb360047525BEdF962581F3eee7b49fe.svg',
+  },
   USDT: {
     name: 'Tether USD',
     symbol: 'USDT',
